@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Cases</h2>
+  <ul class="content-list">
+    <li *ngFor="let case of cases" class="content-item">
+      <p><strong>Number:</strong> {{ case.number }}</p> 
+      <p><strong>Year:</strong> {{ case.year }}</p> 
+      <p><strong>Litigation Degree:</strong> {{ case.litigationDegree }} </p>
+      <p><strong>Final Verdict:</strong> {{ case.finalVerdict }} </p>
+    </li>
+  </ul>
+</div>
+  

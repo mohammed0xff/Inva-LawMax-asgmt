@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Lawyers</h2>
+  <ul class="content-list">
+    <li *ngFor="let lawyer of lawyers" class="content-item">
+      <p><strong>Name:</strong> {{ lawyer.name }}</p>
+      <p><strong>Position:</strong> {{ lawyer.position }}</p>
+      <p><strong>Mobile:</strong> {{ lawyer.mobile }}</p>
+      <p><strong>Address:</strong> {{ lawyer.address }}</p>
+    </li>
+  </ul>
+</div>

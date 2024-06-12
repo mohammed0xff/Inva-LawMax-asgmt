@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Hearings</h2>
+  <ul class="content-list">
+    <li *ngFor="let hearing of hearings" class="content-item">
+    <p><strong>Date:</strong> {{ hearing.date }} </p>
+    <p><strong>Decision:</strong> {{ hearing.decition }} </p>
+    </li>
+  </ul>
+</div>
